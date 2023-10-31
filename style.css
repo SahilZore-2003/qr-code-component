@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Tilt+Neon&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.qr-container{
+    width: 90%;
+    max-width: 300px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.qr-container h1{
+    color: var(--Dark-blue);
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+.qr-container p{
+    margin-top: 12px;
+    font-size: 14px;
+    color: var(--Grayish-blue);
+    font-weight: 500;
+    word-spacing: .5px;
+}
